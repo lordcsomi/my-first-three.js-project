@@ -8,5 +8,10 @@ export default[
         name: 'screen',
         type: "videoTexture",
         path: "/textures/sceen.mp4"
+    },
+    {
+        name: 'boxes',
+        type: "glb",
+        path: "/models/test.glb"
     }
 ]

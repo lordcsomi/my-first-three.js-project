@@ -16,6 +16,9 @@ export default class Renderer {
             canvas: this.canvas,
             antialias: true,
         });
+        this.renderer.shadowMap.enabled = true;
+        this.renderer.setSize(this.sizes.width, this.sizes.height);
+        this.renderer.setPixelRatio (this.sizes.pixelRatio);
         
 
 
